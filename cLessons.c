@@ -10,7 +10,7 @@ int main() {
 
     srand(time(NULL));                  // We use this command to make rand() give each time a different number.
     int number = rand() % 100 + 1;      // Random number 1 to 100.
-    printf("%d", number);
+    //printf("%d", number);
 
     for (i = 1; i >= 1; i++){
         printf("\n\nGuess a number 1 to 100: ");
